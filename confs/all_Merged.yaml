@@ -1,5 +1,5 @@
 teacher:
- roberta:
+ roberta8:
   cola : OUTPUTS/roberta/Mergedteacher/models/cola/0.0002/3/3
   mnli : dummy
   mrpc : OUTPUTS/roberta/Mergedteacher/models/mrpc/0.0005/4/2
