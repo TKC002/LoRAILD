@@ -1,0 +1,27 @@
+cola:
+ n_student_iter: 100
+ n_generator_iter: 10
+mnli:
+ n_student_iter: 100
+ n_generator_iter: 10
+mrpc:
+ n_student_iter: 100
+ n_generator_iter: 10
+qnli:
+ n_student_iter: 100
+ n_generator_iter: 10
+qqp:
+ n_student_iter: 100
+ n_generator_iter: 10
+rte:
+ n_student_iter: 100
+ n_generator_iter: 10
+sst2:
+ n_student_iter: 100
+ n_generator_iter: 10
+stsb:
+ n_student_iter: 100
+ n_generator_iter: 10
+wnli: 
+ n_student_iter: 100
+ n_generator_iter: 10

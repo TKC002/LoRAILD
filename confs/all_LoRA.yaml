@@ -1,0 +1,47 @@
+teacher : 
+ roberta : roberta-large
+ roberta128 : roberta-large
+ roberta64 : roberta-large
+ roberta32 : roberta-large
+ 
+teacher_peft:
+ roberta:
+  cola : OUTPUTS/roberta/LoRAteacher/models/cola/0.0002/3/3
+  mnli : dummy
+  mrpc : OUTPUTS/roberta/LoRAteacher/models/mrpc/0.0005/4/2
+  qnli : OUTPUTS/roberta/LoRAteacher/models/qnli/0.0005/3/1
+  qqp :  dummy
+  rte :  OUTPUTS/roberta/LoRAteacher/models/rte/0.0005/4/3
+  sst2 : OUTPUTS/roberta/LoRAteacher/models/sst2/0.0002/3/3
+  stsb : OUTPUTS/roberta/LoRAteacher/models/stsb/0.0005/2/2
+ roberta128:
+  cola : OUTPUTS/roberta/LoRAteacher128/models/cola/0.0001/4/2
+  mnli : dummy
+  mrpc : OUTPUTS/roberta/LoRAteacher128/models/mrpc/0.0001/3/2
+  qnli : OUTPUTS/roberta/LoRAteacher128/models/qnli/0.0001/5/1
+  qqp :  dummy
+  rte :  OUTPUTS/roberta/LoRAteacher128/models/rte/0.0001/3/3
+  sst2 : OUTPUTS/roberta/LoRAteacher128/models/sst2/5e-05/3/3
+  stsb : OUTPUTS/roberta/LoRAteacher128/models/stsb/0.0001/3/3
+ roberta64:
+  cola : OUTPUTS/roberta/LoRAteacher64/models/cola/0.0002/2/3
+  mnli : dummy
+  mrpc : OUTPUTS/roberta/LoRAteacher64/models/mrpc/0.0005/4/3
+  qnli : OUTPUTS/roberta/LoRAteacher64/models/qnli/0.0001/5/3
+  qqp :  dummy
+  rte :  OUTPUTS/roberta/LoRAteacher64/models/rte/0.0002/4/2
+  sst2 : OUTPUTS/roberta/LoRAteacher64/models/sst2/0.0001/5/3
+  stsb : OUTPUTS/roberta/LoRAteacher64/models/stsb/0.0005/2/2
+ roberta32:
+  cola : OUTPUTS/roberta/LoRAteacher32/models/cola/0.0001/3/2
+  mnli : dummy
+  mrpc : OUTPUTS/roberta/LoRAteacher32/models/mrpc/0.0005/4/3
+  qnli : OUTPUTS/roberta/LoRAteacher32/models/qnli/0.0002/4/2
+  qqp :  dummy
+  rte :  OUTPUTS/roberta/LoRAteacher32/models/rte/0.0005/4/3
+  sst2 : OUTPUTS/roberta/LoRAteacher32/models/sst2/0.0001/5/3
+  stsb : OUTPUTS/roberta/LoRAteacher32/models/stsb/0.0005/4/3
+
+scheduler_type : constant
+num_warmup_steps : 0
+wd : 0

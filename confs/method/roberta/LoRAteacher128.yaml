@@ -1,0 +1,25 @@
+outdir : OUTPUTS/roberta/LoRAteacher128/
+method : LoRAnormal
+model : roberta-large
+tokenizer : roberta-large
+dataset_path : saved_datasets/normal/roberta-large
+batch_size : 32
+epoches : 4
+max_length : 128
+device_num : 4
+nep_method : roberta-LoRAteacher128
+use_neptune : True
+save_check : False
+save_teacher : True
+
+model_name : roberta128
+
+pad_added : False
+half: False
+
+tags : 
+ - teacher
+ - LoRA
+ - r_128
+
+nep_proj : tokyotech-cl/GLUE-KD

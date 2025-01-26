@@ -1,0 +1,41 @@
+teacher:
+ roberta:
+  cola : OUTPUTS/roberta/Mergedteacher/models/cola/0.0002/3/3
+  mnli : dummy
+  mrpc : OUTPUTS/roberta/Mergedteacher/models/mrpc/0.0005/4/2
+  qnli : OUTPUTS/roberta/Mergedteacher/models/qnli/0.0005/3/1
+  qqp :  dummy
+  rte :  OUTPUTS/roberta/Mergedteacher/models/rte/0.0005/4/3
+  sst2 : OUTPUTS/roberta/Mergedteacher/models/sst2/0.0002/3/3
+  stsb : OUTPUTS/roberta/Mergedteacher/models/stsb/0.0005/2/2
+ roberta128:
+  cola : OUTPUTS/roberta/Mergedteacher128/models/cola/0.0001/4/2
+  mnli : dummy
+  mrpc : OUTPUTS/roberta/Mergedteacher128/models/mrpc/0.0001/3/2
+  qnli : OUTPUTS/roberta/Mergedteacher128/models/qnli/0.0001/5/1
+  qqp :  dummy
+  rte :  OUTPUTS/roberta/Mergedteacher128/models/rte/0.0001/3/3
+  sst2 : OUTPUTS/roberta/Mergedteacher128/models/sst2/5e-05/3/3
+  stsb : OUTPUTS/roberta/Mergedteacher128/models/stsb/0.0001/3/3
+ roberta64:
+  cola : OUTPUTS/roberta/Mergedteacher64/models/cola/0.0002/2/3
+  mnli : dummy
+  mrpc : OUTPUTS/roberta/Mergedteacher64/models/mrpc/0.0005/4/3
+  qnli : OUTPUTS/roberta/Mergedteacher64/models/qnli/0.0001/5/3
+  qqp :  dummy
+  rte :  OUTPUTS/roberta/Mergedteacher64/models/rte/0.0002/4/2
+  sst2 : OUTPUTS/roberta/Mergedteacher64/models/sst2/0.0001/5/3
+  stsb : OUTPUTS/roberta/Mergedteacher64/models/stsb/0.0005/2/2
+ roberta32:
+  cola : OUTPUTS/roberta/Mergedteacher32/models/cola/0.0001/3/2
+  mnli : dummy
+  mrpc : OUTPUTS/roberta/Mergedteacher32/models/mrpc/0.0005/4/3
+  qnli : OUTPUTS/roberta/Mergedteacher32/models/qnli/0.0002/4/2
+  qqp :  dummy
+  rte :  OUTPUTS/roberta/Mergedteacher32/models/rte/0.0005/4/3
+  sst2 : OUTPUTS/roberta/Mergedteacher32/models/sst2/0.0001/5/3
+  stsb : OUTPUTS/roberta/Mergedteacher32/models/stsb/0.0005/4/3
+
+scheduler_type : constant
+num_warmup_steps : 0
+wd : 0

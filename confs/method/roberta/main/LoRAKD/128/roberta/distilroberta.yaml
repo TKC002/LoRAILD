@@ -1,0 +1,34 @@
+outdir : OUTPUTS/roberta/main/LoRAKD/128/roberta/distilroberta
+method : LoRAKD
+student : distilroberta-base
+t_tokenizer : roberta-large
+tokenizer : distilroberta-base
+dataset_path : saved_datasets/normal/roberta-large
+batch_size : 32
+epoches : 20
+max_length : 128
+device_num : 4
+nep_method : LoRAKD128_roberta_distilroberta
+use_neptune : True
+save_check : True
+save_teacher : False
+
+half: False
+
+pad_added :
+ - False
+ - False
+is_lora : 
+ - True
+ - False
+
+t_name : roberta128
+model_name : roberta
+lambdas : 
+ - 0.5
+ - 0.5
+tags : 
+ - main
+ - r_128
+
+nep_proj : tokyotech-cl/GLUE-KD

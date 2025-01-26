@@ -1,0 +1,17 @@
+outdir : OUTPUTS/roberta/hps/nokd/
+method : normal
+model : distilroberta-base
+tokenizer : distilroberta-base
+dataset_path : saved_datasets/normal/roberta-large/
+batch_size : 32
+epoches : 5
+max_length : 128
+device_num : 4
+nep_method : roberta-nokd
+use_neptune : True
+save_check : False
+save_teacher : False
+tags : 
+ - hps
+
+nep_proj : tokyotech-cl/GLUE-KD

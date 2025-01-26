@@ -1,0 +1,18 @@
+cola:
+ dummy: 0
+mnli:
+ dummy: 0
+mrpc:
+ dummy: 0
+qnli:
+ dummy: 0
+qqp:
+ dummy: 0
+rte:
+ dummy: 0
+sst2:
+ dummy: 0
+stsb:
+ dummy: 0
+wnli: 
+ dummy: 0

@@ -1,0 +1,35 @@
+outdir : OUTPUTS/roberta/main/CurriculumFullLoRAILD/128/random
+method : CurriculumLoRAILD
+student : distilroberta-base
+t_tokenizer : roberta-large
+tokenizer : distilroberta-base
+dataset_path : saved_datasets/normal/roberta-large
+batch_size : 32
+epoches : 20
+max_length : 128
+device_num : 4
+nep_method : CurriculumFullLoRAILD_128
+use_neptune : True
+save_check : True
+save_teacher : False
+
+half: False
+
+pad_added :
+ - False
+ - False
+is_lora : 
+ - True
+ - True
+full : True
+t_name : roberta128
+model_name : roberta128
+regularize: True
+lambdas : 
+ - 0.333
+ - 0.333
+ - 0.333
+tags : 
+ - main
+
+nep_proj : tokyotech-cl/GLUE-KD

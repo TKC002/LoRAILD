@@ -1,0 +1,45 @@
+outdir : /work2/GLUE-KD/analyze/roberta/CurriculumFullLoRAILD/32/fixed
+method : CurriculumLoRAILD
+student : distilroberta-base
+checkpoint : OUTPUTS/roberta/main/CurriculumFullLoRAILD/32/fixed/checkpoints
+t_tokenizer : roberta-large
+tokenizer : distilroberta-base
+dataset_path : saved_datasets/normal/roberta-large
+batch_size : 32
+epoches : 20
+max_length : 128
+device_num : 4
+nep_method : CurriculumFullLoRAILD_32
+use_neptune : True
+save_check : True
+save_teacher : False
+
+half: False
+
+pad_added :
+ - False
+ - False
+is_lora : 
+ - True
+ - True
+
+t_name : roberta32
+model_name : roberta32
+regularize: True
+full : True
+lambdas : 
+ - 0.333
+ - 0.333
+ - 0.333
+ild_mode : fixed
+teacher_layers :
+ 0: 3
+ 1: 7
+ 2: 11
+ 3: 15
+ 4: 19
+ 5: 23
+tags : 
+ - main
+
+nep_proj : tokyotech-cl/GLUE-KD

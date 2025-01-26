@@ -1,0 +1,8 @@
+work_dir : /work2/GLUE-KD/analyze/roberta/clustering/all
+out_dirs: 
+ CurriculumFullLoRAILD_fixed: CurriculumFullLoRAILD_fixed
+ RAILKD_l: RAILKD_l
+ FullLoRALoRAKD32_0: FullLoRALoRAKD32_0
+
+outdir: /work2/GLUE-KD/analyze/roberta/clustering/average
+ex_num: 5

@@ -1,0 +1,5 @@
+out_dirs:
+ CurriculumFullLoRAILD_fixed: /work2/GLUE-KD/analyze/roberta/CurriculumFullLoRAILD/32/fixed/5
+ FullLoRALoRAKD32_0: /work2/GLUE-KD/analyze/roberta/FullLoRALoRAKD/32_0/roberta/distilroberta/5
+ RAILKD_l: /work2/GLUE-KD/analyze/roberta/RAILKD_l/32/5
+outdir: /work2/GLUE-KD/analyze/roberta/clustering/all/5

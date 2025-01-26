@@ -1,0 +1,27 @@
+outdir : /work2/GLUE-KD/analyze/roberta/RAILKD_l/32/
+method : RAILKD_l
+student : distilroberta-base
+checkpoint : OUTPUTS/roberta/main/RAILKD_l/32/checkpoints
+tokenizer : roberta-large
+dataset_path : saved_datasets/normal/roberta-large/
+batch_size : 32
+epoches : 20
+max_length : 128
+device_num : 4
+nep_method : roberta-RAILKD32
+use_neptune : True
+save_check : True
+save_teacher : False
+
+model_name : roberta
+t_name : roberta32
+linear : 32
+lambdas : 
+ - 0.333
+ - 0.333
+ - 0.333
+tags : 
+ - main
+ - rail_32
+
+nep_proj : tokyotech-cl/GLUE-KD

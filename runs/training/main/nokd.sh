@@ -1,0 +1,1 @@
+bash runs/training/main/roberta/nokd_main.sh train.py confs/all.yaml confs/dummy_task.yaml confs/method/roberta/main/nokd.yaml confs/nep_token.yaml
