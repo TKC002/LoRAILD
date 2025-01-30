@@ -49,7 +49,7 @@ nep_token: YOUR_TOKEN
 - LoRAKD: LoRAの教師モデルを用いた通常の知識蒸留
 - RAILKD: $\mathrm{RAIL\text{-}KD_c}$
 - RAILKD_l: $\mathrm{RAIL\text{-}KD_l}$
-- CurriculumRAILKD: カリキュラム学習を行った$\mathrm{RAIL\text{-}KD_c}$
+- CurriculumRAILKD: カリキュラム学習を行った $\mathrm{RAIL\text{-}KD_c}$
 - CurriculumFullLoRAILD: 提案手法
 
 ### yamlファイルの仕様
